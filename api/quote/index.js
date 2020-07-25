@@ -3,15 +3,15 @@ const https = require('https');
 const unplashApi = 'https://source.unsplash.com/1600x900?dream';
 const quotes = [
   'Wherever you go, no matter what the weather, always bring your own sunshine.',
-  'You\’re awesome.',
-  'Happiness is the only thing that multiplies when you share it.',
-  'It always seems impossible until it is done.',
-  'Let your unique positive energy inspire confidence in others.',
-  'The best is yet to come.',
+  'Tú\ eres asombroso.',
+  'La felicidad es la unica cosa que se multiplica cuando la compartes.',
+  'Siempre parece imposible hasta que esta hecho.',
+  'Deja que tu energia positiva inspire confianza en los demas.',
+  'Lo mejor esta por venir.',
   'You\'re capable of more than you can even dream.',
-  'You deserve the best.',
+  'Mereces lo mejor.',
   'Keep going, you\'re doing well.',
-  'Stay positive; stay hopeful'
+  'Permanece positivo; permanece con esperanzas'
 ];
 
 async function getImage() {
